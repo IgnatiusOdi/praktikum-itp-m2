@@ -31,6 +31,7 @@ dengan Biru + Biru + Putih):
 * Biru   + Merah   + Biru   → Navy
 * Merah  + Putih   + Biru   → Magenta
 * Putih  + Putih   + Hitam  → Light Grey
+
 Contoh:
 ```
 Warna 1 : 1
