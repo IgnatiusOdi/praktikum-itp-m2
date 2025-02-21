@@ -2,9 +2,20 @@
 ## Praktikum ITP M2
 
 ### No 1
-Buatlah sebuah program yang akan meminta inputan. Program ini hanya akan menerima inputan sepanjang 7 digit atau 8 digit saja (Jika panjang digit inputan tidak 7 atau 8 digit maka keluarkan pesan Invalid Length dan program akan berhenti). Setelah program menerima inputan, program akan memeriksa inputan tersebut apakah bilangan palindrom atau bukan. Bilangan palindrome adalah bilangan yang apabila dibaca dari depan maupun dari belakang, hasilnya sama. 
-![image](https://github.com/user-attachments/assets/86cad80a-d7a8-4298-a760-b08cddf62b10)
-![image](https://github.com/user-attachments/assets/6cd8346c-98fe-4db5-b02f-c60d7ada1dc6)
+Buatlah sebuah program yang akan meminta inputan. Program ini hanya akan menerima inputan sepanjang 7 digit atau 8 digit saja (Jika panjang digit inputan tidak 7 atau 8 digit maka keluarkan pesan Invalid Length dan program akan berhenti). Setelah program menerima inputan, program akan memeriksa inputan tersebut apakah bilangan palindrom atau bukan. Bilangan palindrome adalah bilangan yang apabila dibaca dari depan maupun dari belakang, hasilnya sama. Contoh:
+```
+Input  : 12345678
+Output : Bukan Palindrom
+ 
+Input  : 123
+Output : Invalid Length
+ 
+Input  : 12344321
+Output : Palindrom
+ 
+Input  : 1234321
+Output : Palindrom
+```
 
 ### No 2
 Buatlah program yang akan meminta 3 inputan berupa angka yang merupakan  kode dari warna primer atau warna netral yang akan dikenali oleh program. Jika program tidak menemukan warna primer atau warna netral dari inputan kode tersebut maka program akan menampilkan pesan bahwa warna tidak ditemukan. Bila sebuah warna yang sama diinputkan 3x maka tampilkan pesan warna kembar.
@@ -20,9 +31,32 @@ dengan Biru + Biru + Putih):
 * Biru   + Merah   + Biru   → Navy
 * Merah  + Putih   + Biru   → Magenta
 * Putih  + Putih   + Hitam  → Light Grey
-![image](https://github.com/user-attachments/assets/5f4542ef-bc75-43d7-afcb-80b5768e66a6)
-![image](https://github.com/user-attachments/assets/e6f02c8f-91e2-4147-85a6-9bf35478204d)
-![image](https://github.com/user-attachments/assets/800d8e63-886f-4407-bad0-10458c438d73)
+Contoh:
+```
+Warna 1 : 1
+Warna 2 : 1
+Warna 3 : 1
+Hasil  : Warna Kembar 3x
+
+Warna 1 : 3
+Warna 2 : 5
+Warna 3 : 4
+Hasil  : Brown
+
+Warna 1 : 1
+Warna 2 : 9
+Hasil  : Warna tidak dikenali
+
+Warna 1 : 1
+Warna 2 : 2
+Warna 3 : 1
+Hasil  : Light Grey
+
+Warna 1 : 1
+Warna 2 : 2
+Warna 3 : 3
+Hasil  : Warna belum ditemukan!
+```
 
 ### Tugas
 Buatlah program sederhana dimana akan meminta inputan angka. Program hanya dapat menerima inputan angka sepanjang 6 digit, 8 digit  dan 9 digit. Jika angka yang diinputkan sepanjang 6 atau 8 digit, maka program akan mengenalinya sebagai tanggalan sedangkan jika 9 digit maka akan dikenali sebagai NRP mahasiswa dan setelah itu akan mengeluarkan ouput sesuai role masing-masing. Jika inputan angka panjangnya bukanlah 6 digit, 8 digit atau 9 digit maka tampilkan pesan “Invalid Length” dan setelah itu program akan berhenti. Berikut merupakan penjelasan setiap rolenya : 
@@ -42,5 +76,68 @@ Berikut merupakan kode untuk Jurusan :
 - 11  → S1 Informatika
 - 17  → S1 Desain Komunikasi Visual 
 - 18  → S1 Sistem Informasi Bisnis
-![image](https://github.com/user-attachments/assets/2c83c10e-1e56-4484-b190-d97f5f79ea15)
-![image](https://github.com/user-attachments/assets/7fd67875-01f4-4832-a197-9c9ddabb8a53)
+Contoh:
+```
+Input  : 1234567890
+Output : Invalid Length
+
+Input  : 000000
+Output : Invalid Date and Month
+
+Input  : 310920
+Output : Invalid Date
+
+Input  : 12132019
+Output : Invalid Month
+
+Input  : 29022019
+Output : Invalid Date
+
+Input  : 918116694
+Output : Invalid Year
+
+Input  : 218996694
+Output : Invalid Major
+
+Input  : 090919
+Output
+Tanggal  : 09
+Bulan    : September
+Tahun    : 2019
+
+Input  : 090920
+Output
+Tanggal  : 09
+Bulan    : September
+Tahun    : 2020
+
+Input  : 310820
+Output
+Tanggal  : 31
+Bulan    : Agustus
+Tahun    : 2020
+
+Input  : 28042000
+Output
+Tanggal  : 28
+Bulan    : April
+Tahun    : 2000
+
+Input  : 29022020
+Output
+Tanggal  : 29
+Bulan    : Februari
+Tahun    : 2020
+
+Input  : 218116694
+Output
+Tahun Ajaran  : 2018
+Jurusan       : S1 Informatika
+No Urut       : 6694
+
+Input  : 154186695
+Output
+Tahun Ajaran  : 1954
+Jurusan       : S1 Sistem Informasi Bisnis
+No Urut       : 6695
+```
