@@ -36,26 +36,26 @@ Contoh:
 Warna 1 : 1
 Warna 2 : 1
 Warna 3 : 1
-Hasil  : Warna Kembar 3x
+Hasil   : Warna Kembar 3x
 
 Warna 1 : 3
 Warna 2 : 5
 Warna 3 : 4
-Hasil  : Brown
+Hasil   : Brown
 
 Warna 1 : 1
 Warna 2 : 9
-Hasil  : Warna tidak dikenali
+Hasil   : Warna tidak dikenali
 
 Warna 1 : 1
 Warna 2 : 2
 Warna 3 : 1
-Hasil  : Light Grey
+Hasil   : Light Grey
 
 Warna 1 : 1
 Warna 2 : 2
 Warna 3 : 3
-Hasil  : Warna belum ditemukan!
+Hasil   : Warna belum ditemukan!
 ```
 
 ### Tugas
@@ -101,21 +101,21 @@ Output : Invalid Major
 
 Input  : 090919
 Output
-Tanggal  : 09
-Bulan    : September
-Tahun    : 2019
+Tanggal: 09
+Bulan  : September
+Tahun  : 2019
 
 Input  : 090920
 Output
-Tanggal  : 09
-Bulan    : September
-Tahun    : 2020
+Tanggal: 09
+Bulan  : September
+Tahun  : 2020
 
 Input  : 310820
 Output
-Tanggal  : 31
-Bulan    : Agustus
-Tahun    : 2020
+Tanggal: 31
+Bulan  : Agustus
+Tahun  : 2020
 
 Input  : 28042000
 Output
@@ -125,19 +125,19 @@ Tahun    : 2000
 
 Input  : 29022020
 Output
-Tanggal  : 29
-Bulan    : Februari
-Tahun    : 2020
+Tanggal: 29
+Bulan  : Februari
+Tahun  : 2020
 
 Input  : 218116694
 Output
-Tahun Ajaran  : 2018
-Jurusan       : S1 Informatika
-No Urut       : 6694
+Tahun Ajaran: 2018
+Jurusan     : S1 Informatika
+No Urut     : 6694
 
 Input  : 154186695
 Output
-Tahun Ajaran  : 1954
-Jurusan       : S1 Sistem Informasi Bisnis
-No Urut       : 6695
+Tahun Ajaran: 1954
+Jurusan     : S1 Sistem Informasi Bisnis
+No Urut     : 6695
 ```
