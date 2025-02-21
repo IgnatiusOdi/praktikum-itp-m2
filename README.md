@@ -24,9 +24,9 @@ Berikut ini merupakan warna primer dan warna netral yang tersedia :
 2. Putih 
 3. Merah  
 4. Kuning 
-5. Biru 
-Berikut merupakan warna yang akan tercipta jika ketiga warna digabungkan (Urutan inputan warna tidak harus sesuai (Dapat di bolak balik), namun yang harus sesuai yaitu warna yang dibutuhkan serta jumlah perbandingan banyak warnanya. Contoh Biru + Putih + Putih berbeda 
-dengan Biru + Biru + Putih):
+5. Biru
+
+Berikut merupakan warna yang akan tercipta jika ketiga warna digabungkan (Urutan inputan warna tidak harus sesuai (Dapat di bolak balik), namun yang harus sesuai yaitu warna yang dibutuhkan serta jumlah perbandingan banyak warnanya. Contoh Biru + Putih + Putih berbeda dengan Biru + Biru + Putih):
 * Merah  + Kuning  + Biru   → Brown
 * Biru   + Merah   + Biru   → Navy
 * Merah  + Putih   + Biru   → Magenta
